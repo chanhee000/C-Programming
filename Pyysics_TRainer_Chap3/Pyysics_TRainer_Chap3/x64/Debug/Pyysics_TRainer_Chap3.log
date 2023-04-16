@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\hondo\Desktop\물리 문제 프로그래밍\Physics_Trainer_Chap3\Pyysics_TRainer_Chap3\Pyysics_TRainer_Chap3\main.cpp(61,12): warning C4101: 'b' :참조되지 않은 지역 변수입니다.
+C:\Users\hondo\Desktop\물리 문제 프로그래밍\Physics_Trainer_Chap3\Pyysics_TRainer_Chap3\Pyysics_TRainer_Chap3\main.cpp(61,15): warning C4101: 'c' :참조되지 않은 지역 변수입니다.
+  Pyysics_TRainer_Chap3.vcxproj -> C:\Users\hondo\Desktop\물리 문제 프로그래밍\Physics_Trainer_Chap3\Pyysics_TRainer_Chap3\x64\Debug\Pyysics_TRainer_Chap3.exe
