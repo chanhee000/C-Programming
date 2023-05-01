@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\hondo\Desktop\프로그래밍\7장연습문제\20230424_3\20230424_3\main.cpp(16,41): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\hondo\Desktop\프로그래밍\7장연습문제\20230424_3\20230424_3\main.cpp(16,41): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+  20230424_3.vcxproj -> C:\Users\hondo\Desktop\프로그래밍\7장연습문제\20230424_3\x64\Debug\20230424_3.exe
