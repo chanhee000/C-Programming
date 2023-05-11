@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1cd0484e-ae52-4e0f-b71f-0602e08ac2a7}</ProjectGuid>
+    <ProjectGuid>{3ccf47a3-0d1d-4679-97a1-5bfdcfa05e9f}</ProjectGuid>
     <RootNamespace>PhysicsTrainerChap2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
