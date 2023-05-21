@@ -1,0 +1,4 @@
+﻿  maincpp.cpp
+C:\미래모빌리티공학과\모빌리티프로그래밍\202315022_Chang Hee HAN\Project2\maincpp.cpp(88,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\202315022_Chang Hee HAN\Project2\maincpp.cpp(110,9): warning C4101: 't' :참조되지 않은 지역 변수입니다.
+  Project2.vcxproj -> C:\미래모빌리티공학과\모빌리티프로그래밍\202315022_Chang Hee HAN\Project2\x64\Debug\Project2.exe
