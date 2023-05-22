@@ -1,5 +1,0 @@
-﻿  main.cpp
-C:\미래모빌리티공학과\모빌리티프로그래밍\202315022_Chang Hee HAN\Physics_Trainer_Chap2\main.cpp(29,10): warning C4566: 유니버설 문자 이름 '\u008B'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
-C:\미래모빌리티공학과\모빌리티프로그래밍\202315022_Chang Hee HAN\Physics_Trainer_Chap2\main.cpp(29,10): warning C4566: 유니버설 문자 이름 '\u009A'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
-C:\미래모빌리티공학과\모빌리티프로그래밍\202315022_Chang Hee HAN\Physics_Trainer_Chap2\main.cpp(66,9): warning C4101: 't' :참조되지 않은 지역 변수입니다.
-  Physics_Trainer_Chap2.vcxproj -> C:\미래모빌리티공학과\모빌리티프로그래밍\202315022_Chang Hee HAN\Physics_Trainer_Chap2\x64\Debug\Physics_Trainer_Chap2.exe
