@@ -1,5 +1,0 @@
-﻿  main.cpp
-D:\코스프로\202315022_한창희\5월18일\Pysics_Trainer_Chap2\Pysics_Trainer_Chap2\main.cpp(48,15): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\코스프로\202315022_한창희\5월18일\Pysics_Trainer_Chap2\Pysics_Trainer_Chap2\main.cpp(100,15): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\코스프로\202315022_한창희\5월18일\Pysics_Trainer_Chap2\Pysics_Trainer_Chap2\main.cpp(128,12): warning C4101: 't' :참조되지 않은 지역 변수입니다.
-  Pysics_Trainer_Chap2.vcxproj -> D:\코스프로\202315022_한창희\5월18일\Pysics_Trainer_Chap2\x64\Debug\Pysics_Trainer_Chap2.exe
