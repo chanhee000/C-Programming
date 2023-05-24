@@ -1,38 +1,34 @@
-//202315022 미래모빌리티공학 한창희
+//미래모빌리티공학 202315022 한창희
+//360p 4번
+
 #define _CRT_SECURE_NO_WARNINGS
-#include<stdlib.h>
 #include<stdio.h>
-#include<windows.h>
-#include<time.h>
+#include <stdlib.h>
 
-void disp_car(int car_number, int distance)
+int check_alpha(char c)
 {
-	int i;
-
-	printf("CAR #%d:", car_number);
-	for (i = 0; i < distance / 10; i++)
-		printf("*");
-	printf("\n");
-}
-
-int main(void)
-{
-	int i;
-	int car1_dist;
-	car1_dist = 0;
-	int car2_dist;
-	car2_dist = 0;
-
-	srand((unsigned)time(NULL));
-
-	for (i = 0; i < 20; i++)
+	if (c >= 'a' && c <= 'z')
 	{
-		system("cls");
-		car1_dist += rand() % 100;
-		car2_dist += rand() % 100;
-		disp_car(1, car1_dist);
-		disp_car(2, car2_dist);
-		Sleep(1000);
+		return 1;
 	}
-	return 0;
+
+	else
+	{
+		return 0;
+	}
+
+}
+int main(void)
+{	
+	int c;
+	printf("문자를 입력하시오:");
+	scanf("%c", &c);
+	if(check_alpha(c))
+	{
+		printf("%c는 알파벳입니다.",c);
+	}
+	else
+	{
+		printf("%c는 알파벳이 아닙니다.",c);
+	}
 }
