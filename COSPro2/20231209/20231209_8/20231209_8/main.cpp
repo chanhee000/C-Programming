@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <stdbool.h>
+#include <stdlib.h>
+
+int solution(int height[][4], int height_len) 
+{
+    int count = 0;                                      //위험지역 갯수를 나타낼 변수 선언
+
+    for (int i = 0; i < height_len; i++)                // 4x4 배열에서 가로를 for문에 입력
+    {
+        for (int j = 0; j < 4; j++)                     // 4x4 배열에서 세로를 for문에 입력
+        { 
+            int current_height = height[i][j];
+            if ((current_height > height[i - 1][j]) &&  //왼쪽의   위치에 있는 숫자가 높은지 확인
+                (current_height > height[i + 1][j]) &&  //오른쪽의 위치에 있는 숫자가 높은지 확인
+                (current_height > height[i][j - 1]) &&  //왼쪽의   위치에 있는 숫자가 높은지 확인
+                (current_height > height[i][j + 1]))    //아래쪽의 위치에 있는 숫자가 높은지 확인
+            {
+                count++;                               //위험지역이 증가할 때마다 갯수를 올려줌
+            }
+        }
+    }
+
+    return count;
+}
+
+int main() {
+    int height[4][4] = { {3, 6, 2, 8}, {7, 3, 4, 2}, {8, 6, 7, 3}, {5, 3, 2, 9} };  //구역에 주어지는 숫자
+    int height_len = 4;                                                             //배열의 길이
+    int ret = solution(height, height_len);                                         //위험구역을 찾기위한 solution함수 실행
+
+    printf("solution 함수의 반환 값은 %d 입니다.\n", ret);                            //위험구역의 갯수를 표시
+
+    return 0;
+}
+
+
