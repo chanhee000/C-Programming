@@ -1,0 +1,14 @@
+int solution(int temperature[], int temperature_len, int A, int B)
+// A와 B보다 높은 온도가 몇 번 나오는지 확인
+{
+    int answer = 0;
+    for(int i = A;i<B;i++) 
+    {
+     if(temperature[i] > temperature[A] && temperature[i] > temperature[B])
+      //현재 온도가 A와 B보다 높을 경우 증가
+      {
+	answer++;
+      }
+   }
+    return answer;
+}
