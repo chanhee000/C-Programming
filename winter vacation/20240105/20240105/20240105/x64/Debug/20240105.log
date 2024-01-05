@@ -1,0 +1,9 @@
+﻿  main.cpp
+C:\Users\user\Desktop\한창희\winter vacation\20240105\20240105\20240105\main.cpp(15,69): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\한창희\winter vacation\20240105\20240105\20240105\main.cpp(35,30): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\한창희\winter vacation\20240105\20240105\20240105\main.cpp(43,28): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\한창희\winter vacation\20240105\20240105\20240105\main.cpp(51,33): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\한창희\winter vacation\20240105\20240105\20240105\main.cpp(59,15): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\한창희\winter vacation\20240105\20240105\20240105\main.cpp(65,50): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\한창희\winter vacation\20240105\20240105\20240105\main.cpp(67,45): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  20240105.vcxproj -> C:\Users\user\Desktop\한창희\winter vacation\20240105\20240105\x64\Debug\20240105.exe
