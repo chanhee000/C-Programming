@@ -1,4 +1,0 @@
-﻿  main.cpp
-C:\미래모빌리티공학과\모빌리티프로그래밍\202315022_Chang Hee HAN\20230329\20230329_2\main.cpp(10,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\미래모빌리티공학과\모빌리티프로그래밍\202315022_Chang Hee HAN\20230329\20230329_2\main.cpp(13,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  20230329_2.vcxproj -> C:\미래모빌리티공학과\모빌리티프로그래밍\202315022_Chang Hee HAN\20230329\20230329_2\x64\Debug\20230329_2.exe
